@@ -37,7 +37,7 @@ class _HolaMundoPageState extends State<HolaMundoPage> {
   @override
   void initState() {
     super.initState();
-    // animación automática
+    
     Future.delayed(const Duration(seconds: 2), _autoScroll);
   }
 
